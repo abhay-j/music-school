@@ -1,0 +1,124 @@
+.top{
+    background:transparent;
+}
+
+.logo-color{
+    color:#f7c08a
+}
+
+.text-primary{
+    
+    color:#f7c08a
+}
+
+.bg-dark{
+    background:#333;
+    color:#f4f4f4;
+}
+.bg-primary{
+    background: #f7c08a;
+    color:#333;
+}
+
+.bg-light{
+    background: #f4f4f4;
+    color:#333;
+}
+
+
+.btn{
+margin:10px 0 ;
+padding:15px 20px;
+border:none;
+border-radius:5px;
+cursor: pointer;
+}
+
+.btn-primary{
+    
+    background:#f7c08a;
+    color:#333;
+}
+
+
+
+.btn-primary:hover{
+    opacity: 0.8;
+    color:#fff;
+}
+
+
+.flex-section .row{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.flex-section .row .column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex:1;
+}
+
+.flex-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+.flex-section .column .column-1,
+.flex-section .column .column-2{
+    height:100%;
+}
+.flex-section .column .column-1{
+    padding:30px;
+}
+.flex-section .column .column-1 img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.flex-section .column .column-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+}
+.flex-section .column .column-2 h2{
+    font-size: 40px;
+    font-weight:100;
+    margin-bottom:10px;
+}
+.section-padding{
+    padding:20px 20px 40px;
+}
+
+.teachers .section-header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+}
+.teachers .section-header h2{
+    font-size: 40px;
+    font-weight:100;
+    margin-bottom:10px;
+}
+
+.teacher-cards{
+    padding:50px;
+}
+
+.flex-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height:100%;
+}
